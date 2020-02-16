@@ -15,7 +15,7 @@ done
 echo "make a guess of the number of files in this folder "
 
 #the next commad counts the number of files in a directory, not taking into account folders or sym links.
-goal = ls -l | grep -v ^l grep -v ^d | wc -l 
+goal = ls -l | grep -v ^l | grep -v ^d | wc -l 
 
 #request the guess
 read guess
