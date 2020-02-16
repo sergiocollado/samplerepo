@@ -1,2 +1,2 @@
 # samplerepo
-just a sample repo
+guessing number of files in the current folder game. 
